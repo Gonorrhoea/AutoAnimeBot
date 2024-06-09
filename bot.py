@@ -85,13 +85,13 @@ async def _start(event):
                 buttons=admin.admin_panel(),
             )
         await event.reply(
-            f"**Enjoy Ongoing Anime's Best Encode 24/7 🫡**",
+            f"**Ongoing Anime Channel - Powered by @TeamExplorer**",
             buttons=[
                 [
-                    Button.url("👨‍💻 DEV", url="t.me/kaif_00z"),
+                    Button.url("Main Channel", url="https://t.me/allanimesschannel/"),
                     Button.url(
-                        "💖 OPEN SOURCE",
-                        url="https://github.com/kaif-00z/AutoAnimeBot/",
+                        "Our Network",
+                        url="https://t.me/TeamExplorer/",
                     ),
                 ]
             ],
