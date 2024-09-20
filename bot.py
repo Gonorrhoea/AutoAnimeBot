@@ -16,6 +16,10 @@
 # if you are using this following code then don't forgot to give proper
 # credit to t.me/kAiF_00z (github.com/kaif-00z)
 
+import pyrogram.utils
+
+pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+
 import re
 from traceback import format_exc
 
